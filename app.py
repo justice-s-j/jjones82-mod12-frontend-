@@ -5,12 +5,12 @@ import requests
 
 
 app = flask.Flask(__name__)
-app.config["SECRET_KEY"] = "seasdad(*2sffcra01^23sdet"
+app.config["SECRET_KEY"] = "oceanmom44556677123"
 
 CORS(app)
 
 # Get this URL from the Azure Overview page of your API web app
-api_url = "https://colbert-api-fpd0evcqfneja4cj.eastus-01.azurewebsites.net"  # base url for API endpoints
+api_url = "http://127.0.0.1:5002"  # base url for API endpoints
 
 
 # main index page route

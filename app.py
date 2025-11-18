@@ -10,7 +10,7 @@ app.config["SECRET_KEY"] = "oceanmom44556677123"
 CORS(app)
 
 # Get this URL from the Azure Overview page of your API web app
-api_url = "http://127.0.0.1:5002"  # base url for API endpoints
+api_url = "https://jjones82-api-eygnanbgg3bed9h6.northcentralus-01.azurewebsites.net/predict"  # base url for API endpoints
 
 
 # main index page route

@@ -6,34 +6,51 @@ This application uses Python [Flask](https://flask.palletsprojects.com/en/3.0.x/
 
 Formatting was accomplished using [Bootstrap 5.2](https://getbootstrap.com/docs/5.2/getting-started/download/)
 
-The idea for this project came from [Predicting Year of Marriage - End to End Machine Learning Deployment with FLASK and AWS -PART 1](https://www.youtube.com/watch?v=sm5xeKal72I). I adapted to a data science salary prediction model and Microsoft Azure for purposes of teaching.
+The idea for this project came from [Predicting Year of Marriage - End to End Machine Learning Deployment with FLASK and AWS -PART 1](https://www.youtube.com/watch?v=sm5xeKal72I). Professor Colbert aded to a data science salary prediction model and Microsoft Azure for purposes of teaching.
 
-### To Run This Application
+## Overview
+This project is a front-end web application that allows users to interact with a machine
+learning salary prediction model through a simple browser-based interface.
+
+The application is built using Python and Flask, with Bootstrap 5 used for layout and
+styling. It is designed to demonstrate how a machine learning model can be deployed and
+accessed through a user-friendly interface.
+
+## Purpose
+The goal of this project was to practice end-to-end deployment concepts by connecting a
+machine learning model to a web interface and hosting it using Microsoft Azure. The project
+emphasizes usability, clarity, and practical deployment rather than model complexity.
+
+## Technologies Used
+- Python
+- Flask
+- Bootstrap 5.2
+- Microsoft Azure
+
+## Inspiration
+The idea for this project was adapted from  
+[Predicting Year of Marriage – End to End Machine Learning Deployment with Flask and AWS (Part 1)](https://www.youtube.com/watch?v=sm5xeKal72I).
+
+The original concept was modified to focus on a data science salary prediction use case and
+deployed using Microsoft Azure for instructional purposes.
 
 ---
 
-1. Clone this repository to local computer
+## Running the Application Locally
 
-2. Create a new virtual environment
+1. Clone this repository to your local machine
 
-   - Windows: `python -m venv ./venv`
+2. Create a virtual environment  
+   - Windows: `python -m venv ./venv`  
    - Mac: `python3 -m venv ./venv`
 
-3. Activate the new virtual environment
-
-   - Windows: `.\venv\Scripts\activate`
+3. Activate the virtual environment  
+   - Windows: `.\venv\Scripts\activate`  
    - Mac: `source ./venv/bin/activate`
 
-4. Install the dependencies `pip install -r requirements.txt`
-
-5. Run the application with `flask run`
-   a. To run a specific app: `flask --app app run`  
-   b. To change the port: `flask run --port 8080`  
-   c. To listen on all public IP addresses: `flask run --host 0.0.0.0`
-   d. To run in debug mode: `flask run --debug`
-
-   Example: `flask --app app run --port 8080 --debug `
-
+4. Install dependencies  
+   ```bash
+   pip install -r requirements.txt
 ---
 
 <img src="https://github.com/mikecolbert/salary_prediction_front_end/blob/main/front_end_screenshot.jpg" width="400" />

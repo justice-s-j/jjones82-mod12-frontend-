@@ -6,8 +6,6 @@ This application uses Python [Flask](https://flask.palletsprojects.com/en/3.0.x/
 
 Formatting was accomplished using [Bootstrap 5.2](https://getbootstrap.com/docs/5.2/getting-started/download/)
 
-The idea for this project came from [Predicting Year of Marriage - End to End Machine Learning Deployment with FLASK and AWS -PART 1](https://www.youtube.com/watch?v=sm5xeKal72I). Professor Colbert aded to a data science salary prediction model and Microsoft Azure for purposes of teaching.
-
 ## Overview
 This project is a front-end web application that allows users to interact with a machine
 learning salary prediction model through a simple browser-based interface.
@@ -28,7 +26,7 @@ emphasizes usability, clarity, and practical deployment rather than model comple
 - Microsoft Azure
 
 ## Inspiration
-The idea for this project was adapted from  
+The idea for this project was adapted by Professor Colbert from  
 [Predicting Year of Marriage – End to End Machine Learning Deployment with Flask and AWS (Part 1)](https://www.youtube.com/watch?v=sm5xeKal72I).
 
 The original concept was modified to focus on a data science salary prediction use case and
